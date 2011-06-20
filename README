@@ -1,0 +1,19 @@
+Password Protect for Croogo
+------------------------------
+Password protect with htaccess/htpasswd your main web directory.
+
+
+
+
+How to use
+------------------------------
+- Log in to admin panel
+- Go to Extensions > Plugins page
+- Upload the zip file (available here)
+- Click on tick/cross icon of 'Password Protect' for activating or deactivating the plugin
+
+
+Notes
+------------------------------
+- Hashed passwords don't generate correctly on Apache running on Windows
+- Make sure .htaccess and .htpasswd exist and are writable by Apache

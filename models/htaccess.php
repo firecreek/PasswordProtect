@@ -76,7 +76,7 @@
       parent::__construct();
       
       //File
-      $this->file = ROOT.DS.'.htaccess';
+      $this->file = APP.'.htaccess';
       $this->File = new File($this->file);
       
       //Protection

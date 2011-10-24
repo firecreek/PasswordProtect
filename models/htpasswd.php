@@ -55,7 +55,7 @@
     {
       parent::__construct();
       
-      $this->file = ROOT.DS.'.htpasswd';
+      $this->file = APP.'.htpasswd';
       $this->File = new File($this->file);
     }
     

@@ -8,7 +8,7 @@
    * @license  http://www.opensource.org/licenses/mit-license.php The MIT License
    * @link     http://www.firecreek.co.uk
    */
-  class PasswordprotectActivation {
+  class PasswordProtectActivation {
   /**
    * onActivate will be called if this returns true
    *
@@ -26,13 +26,13 @@
    */
       public function onActivation(&$controller) {
           // ACL: set ACOs with permissions
-          $controller->Croogo->addAco('Passwordprotect');
-          $controller->Croogo->addAco('Passwordprotect/admin_index');
-          $controller->Croogo->addAco('Passwordprotect/admin_add');
-          $controller->Croogo->addAco('Passwordprotect/admin_edit');
-          $controller->Croogo->addAco('Passwordprotect/admin_delete');
-          $controller->Croogo->addAco('Passwordprotect/admin_enable');
-          $controller->Croogo->addAco('Passwordprotect/admin_disable');
+          $controller->Croogo->addAco('PasswordProtect');
+          $controller->Croogo->addAco('PasswordProtect/admin_index');
+          $controller->Croogo->addAco('PasswordProtect/admin_add');
+          $controller->Croogo->addAco('PasswordProtect/admin_edit');
+          $controller->Croogo->addAco('PasswordProtect/admin_delete');
+          $controller->Croogo->addAco('PasswordProtect/admin_enable');
+          $controller->Croogo->addAco('PasswordProtect/admin_disable');
       }
       
   /**
@@ -53,7 +53,7 @@
    */
       public function onDeactivation(&$controller) {
           // ACL: remove ACOs with permissions
-          $controller->Croogo->removeAco('Passwordprotect');
+          $controller->Croogo->removeAco('PasswordProtect');
       }
       
   }

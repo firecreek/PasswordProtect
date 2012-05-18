@@ -1,0 +1,15 @@
+{
+    "name": "PasswordProtect",
+    "description": "Password Protect your site with Htaccess",
+
+    "author": "Fred Isaacs",
+    "authorEmail": "fred@isaacsconsulting.com",
+    "authorUrl": "http://isaacsconsulting.com",
+
+    "dependencies": {
+      "plugins": [
+        "acl",
+          "extensions"
+          ]
+        }
+}

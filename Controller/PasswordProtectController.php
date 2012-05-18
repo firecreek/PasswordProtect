@@ -10,14 +10,14 @@
    * @license  http://www.opensource.org/licenses/mit-license.php The MIT License
    * @link     http://www.firecreek.co.uk
    */
-  class PasswordprotectController extends PasswordprotectAppController {
+  class PasswordProtectController extends PasswordProtectAppController {
     /**
      * Controller name
      *
      * @var string
      * @access public
      */
-    public $name = 'Passwordprotect';
+    public $name = 'PasswordProtect';
       
     /**
      * Models used by the Controller
@@ -25,7 +25,7 @@
      * @var array
      * @access public
      */
-    public $uses = array('Passwordprotect.Htaccess','Passwordprotect.Htpasswd');
+    public $uses = array('PasswordProtect.Htaccess','PasswordProtect.Htpasswd');
 
 
     /**

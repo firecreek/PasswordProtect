@@ -1,6 +1,6 @@
 <?php
 
-  class PasswordprotectAppModel extends AppModel {
+  class PasswordProtectAppModel extends AppModel {
 
     public function exists()
     {

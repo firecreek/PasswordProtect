@@ -1,10 +1,10 @@
 {
     "name": "PasswordProtect",
-    "description": "Password Protect your site with Htaccess",
+    "description": "Password Protect your site with Htaccess, good for demo'ing to clients",
 
-    "author": "Fred Isaacs",
-    "authorEmail": "fred@isaacsconsulting.com",
-    "authorUrl": "http://isaacsconsulting.com",
+    "author": "Darren Moore",
+    "authorEmail": "darren.m@firecreek.co.uk",
+    "authorUrl": "http://www.firecreek.co.uk",
 
     "dependencies": {
       "plugins": [

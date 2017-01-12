@@ -1,1 +1,0 @@
-<?php echo $html->link(__('Password Protect', true), array('plugin' => 'passwordprotect', 'controller' => 'passwordprotect', 'action' => 'index')); ?>

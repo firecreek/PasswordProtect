@@ -1,5 +1,0 @@
-<?php
-
-  Croogo::hookAdminMenu('Passwordprotect');
-  
-?>

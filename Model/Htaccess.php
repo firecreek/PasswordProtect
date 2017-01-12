@@ -10,7 +10,7 @@
    * @license  http://www.opensource.org/licenses/mit-license.php The MIT License
    * @link     http://www.firecreek.co.uk
    */
-  class Htaccess extends PasswordprotectAppModel
+  class Htaccess extends PasswordProtectAppModel
   {
     /**
      * Name
@@ -60,7 +60,7 @@
      */
     public $hasOne = array(
       'Htpasswd' => array(
-        'className' => 'Passwordprotect.Htpasswd'
+        'className' => 'PasswordProtect.Htpasswd'
       )
     );
     
